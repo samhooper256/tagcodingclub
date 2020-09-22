@@ -57,10 +57,10 @@ public class Solutions {
 		solutions.put("dhruv", Solutions::dhruv);
 		solutions.put("jessica", Solutions::jessica);
 		solutions.put("victoria", Solutions::victoria);
-		solutions.put("zach", Solutions::zach);
-//		solutions.put("yasmeen", Solutions::yasmeen);
 		solutions.put("fiona", Solutions::fiona);
 		solutions.put("akshee", Solutions::akshee);
+		solutions.put("zach", Solutions::zach);
+//		solutions.put("yasmeen", Solutions::yasmeen);
 		
 		
 		solutions.put("optimal", Solutions::optimal);
