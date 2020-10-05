@@ -46,7 +46,9 @@ public class TypeUtils {
 				Class<?> clazz = Class.forName(fullyQualifiedName);
 				classes.add(clazz);
 			}
-			catch (ClassNotFoundException e) {}
+			catch (ClassNotFoundException e) {
+				//ignore
+			}
 		}
 	}
 	
