@@ -30,6 +30,13 @@ public class TimeUtils {
 	public static double timeAndDetail(Runnable action) {
 		return timeAndDetail(action, TimeUnit.NANOSECONDS);
 	}
+	
+	/** Prints to stdout and returns the duration that the given action took to complete.
+	 * The printed statement contains {@code name}, the name of the test. */
+	public static double timeAndDetail(Runnable action, String name) {
+		return timeAndDetail(action, name, TimeUnit.NANOSECONDS);
+	}
+	
 	/** Prints to stdout and returns the duration that the given action took to complete, in
 	 * the desired units. */
 	public static double timeAndDetail(Runnable action, TimeUnit unit) {
