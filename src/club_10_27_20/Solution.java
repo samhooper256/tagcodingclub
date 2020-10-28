@@ -218,7 +218,7 @@ public class Solution {
 			if(marks[n] == VISITED)
 				return; //no need to do any processing if we've already visited it.
 			if(marks[n] == CURRENTLY_BEING_VISITED)
-				throw new IllegalArgumentException("Invalid Graph"); //uh oh - we've found our back to the same node while processing it.
+				throw new IllegalArgumentException("Invalid Graph"); //uh oh - we've found our way back to the same node while processing it.
 				//this means our graph has a cycle (a series of nodes that connect back to each other in a cycle). If it has a cycle,
 				//there is no topological sort of it.
 			
