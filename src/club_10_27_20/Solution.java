@@ -146,7 +146,7 @@ public class Solution {
 			int n = sources.remove(sources.size() - 1); //it doesn't matter which one we remove.
 			resultList.add(nodes[n]); //this node has nothing that comes before it, so we immediately add it to the end of our result list.
 			
-			//now, we remove the node "n" from this graph, which entails removing all of its outgoing nodes as well. We know it has no incoming
+			//now, we remove the node "n" from this graph, which entails removing all of its outgoing edges as well. We know it has no incoming
 			//nodes because it's a source.
 			for(int m : adj.get(n)) {
 				incoming[m]--;
