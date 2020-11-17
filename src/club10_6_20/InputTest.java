@@ -1,4 +1,4 @@
-package club_10_6_20;
+package club10_6_20;
 
 import java.io.*;
 import java.util.Arrays;

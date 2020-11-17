@@ -1,4 +1,4 @@
-package club_10_20_20;
+package club10_20_20;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package club_10_27_20;
+package club10_27_20;
 
 import static graphs.Utils.getDirectedAdjacencyLists;
 import static graphs.Utils.getIncomingEdgeCounts;

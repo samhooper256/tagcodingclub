@@ -1,4 +1,4 @@
-package club_10_27_20;
+package club10_27_20;
 
 import java.io.*;
 import java.lang.reflect.*;
