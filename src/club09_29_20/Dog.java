@@ -1,4 +1,4 @@
-package club9_29_20;
+package club09_29_20;
 
 public class Dog extends Animal {
 	private String name;
