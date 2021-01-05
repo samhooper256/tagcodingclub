@@ -84,8 +84,13 @@ public class Solutions {
 	
 	/** <p>Runs in O(n).</p>*/
 	private static long sumSums_N(int[] arr) {
-		//Will be written in (or after) the meeting :)
-		return -1;
+		long total = 0;
+		int L = arr.length;
+		for(int i = 0; i < arr.length; i++) {
+			int times = (i + 1) * (L - i);
+			total += ((long) arr[i]) * times;
+		}
+		return total;
 	}
 	
 }
